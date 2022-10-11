@@ -12,3 +12,5 @@
         #A
         peluang = dgeom(x-1,p)
         peluang
+
+
