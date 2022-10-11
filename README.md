@@ -10,7 +10,7 @@
         x = 3
         
         #A
-        peluang = dgeom(x-1,p)
+        peluang = dgeom()
         peluang
 
 
