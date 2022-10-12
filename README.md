@@ -17,7 +17,7 @@
 
 
 
-   b.  Mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
+   b. Mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
          
           #B
           n = 10000
@@ -28,15 +28,15 @@
 
 
    
-   c.  Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
+   c. Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
    
-       Kedua poin tersebut menghasilkan hasil yang berbeda. Pada poin A, dilakukan distribusi Geomterik biasa dan didapatkan nilai 
-       sebesar 0.1024 dan akan selalu tetap jika dilakukan pengulangan pengujian. Hal itu dikarenakan nilai distribusi Geometrik 
-       yang digunakan adalah tetap dan tidak diacak.
-       Sedangkan pada poin B, didapatkan hasil yang selalu berubah-ubah karena hasil tersebut merupakan rata-rata dari semua 
-       peluang-peluang yang dapat terjadi pada kejadian tersebut. Nilai peluang distribusi tersebut akan selalu berubah 
-       seiring dengan nilai random yang dihasilkan dari fungsi rgeom().
-       Untuk kebutuhan sampling, poin B lebih baik untuk digunakan daripada poin A.
+          Kedua poin tersebut menghasilkan hasil yang berbeda. Pada poin A, dilakukan distribusi Geomterik biasa dan didapatkan nilai 
+          sebesar 0.1024 dan akan selalu tetap jika dilakukan pengulangan pengujian. Hal itu dikarenakan nilai distribusi Geometrik 
+          yang digunakan adalah tetap dan tidak diacak.
+          Sedangkan pada poin B, didapatkan hasil yang selalu berubah-ubah karena hasil tersebut merupakan rata-rata dari semua 
+          peluang-peluang yang dapat terjadi pada kejadian tersebut. Nilai peluang distribusi tersebut akan selalu berubah 
+          seiring dengan nilai random yang dihasilkan dari fungsi rgeom().
+          Untuk kebutuhan sampling, poin B lebih baik untuk digunakan daripada poin A.
        
        
    d.  Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
@@ -76,16 +76,21 @@
           #A
           peluang = dbinom(x, n, p)
           peluang
+          
+![Screenshot (2635)](https://user-images.githubusercontent.com/106955551/195246160-31978615-67bd-4959-a241-a2b0cf126c03.png)
+
          
     b. Gambarkan grafik histogram berdasarkan kasus tersebut. 
      
           #B
           hist(rbinom(x, n, p), 
-               main = "Histogram Distribusi Binomial",
-               xlab = "X",
-               col  = "purple"
+              main = "Histogram Distribusi Binomial",
+              xlab = "X",
+              col  = "purple"
           )
-         
+ 
+ ![Screenshot (2640)](https://user-images.githubusercontent.com/106955551/195246254-dfa9fe4f-82a8-4aab-a57e-5d1d6396baa5.png)
+
          
     c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Binomial.
       
@@ -94,7 +99,9 @@
           varian = n*p*(1-p)
           mean
           varian
-         
+
+![Screenshot (2640)](https://user-images.githubusercontent.com/106955551/195246254-dfa9fe4f-82a8-4aab-a57e-5d1d6396baa5.png)
+
          
 3. Diketahui data dari  sebuah tempat bersalin di rumah sakit tertentu menunjukkan rata-rata historis 4,5 bayi lahir di rumah sakit ini setiap hari. 
    (gunakan Distribusi Poisson)
@@ -107,7 +114,9 @@
            #A
            peluang = dpois(x, lamda)
            peluang
-         
+ 
+ ![Screenshot (2641)](https://user-images.githubusercontent.com/106955551/195246620-1c0ea9cb-1892-44b2-b86e-06dd4b6b8687.png)
+
          
      b. Simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini  selama setahun (n = 365)
      
@@ -118,9 +127,12 @@
                xlab = "X",
                col  = "green"
            )
+  
+  ![Screenshot (2643)](https://user-images.githubusercontent.com/106955551/195246646-72a5e917-4ba0-4430-a93d-e32afd10f3a2.png)
+
+
          
-         
-      c. Bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
+     c. Bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
          
          Poin A dan B cenderung sama, karena nilai dari poin A sendiri didapat dari range nilai poin B. Range dari B dapat dilihat 
          pada histogram yang telah terbentuk. Dari sana, nilai dari A berada di dalam range B. Oleh karena itu, dalam estimasi 
@@ -128,13 +140,17 @@
          selanjutnya (esok hari).
          
          
-      d. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
+         
+     d. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
       
             #D
             mean = varian = lamda
             mean
             varian
-          
+  
+  
+  ![Screenshot (2643)](https://user-images.githubusercontent.com/106955551/195246646-72a5e917-4ba0-4430-a93d-e32afd10f3a2.png)
+
           
 4. Diketahui nilai x = 2 dan v = 10. Tentukan:
       
@@ -146,7 +162,10 @@
             #A
             peluang = dchisq(x, 10)
             peluang
-            
+           
+           
+![Screenshot (2644)](https://user-images.githubusercontent.com/106955551/195247447-5bbcda31-f7db-4dd0-8071-c79c7a89bdad.png)
+
             
       b. Histogram dari Distribusi Chi-Square dengan 100 data random.
       
@@ -158,7 +177,9 @@
                ylab = "V", 
                col  = "orange"
             )
-            
+
+![Screenshot (2646)](https://user-images.githubusercontent.com/106955551/195247457-60d0787b-1d55-49e4-8d8c-fab0b149f835.png)
+
             
       c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Chi-Square.
        
@@ -169,6 +190,9 @@
             varian 
             
             
+![Screenshot (2646)](https://user-images.githubusercontent.com/106955551/195247457-60d0787b-1d55-49e4-8d8c-fab0b149f835.png)
+
+
 5. Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Tentukan
 
    a. Fungsi Probabilitas dari Distribusi Exponensial 
@@ -179,7 +203,8 @@
             set.seed(1)
             peluang = dexp(1, rate = lambda)
             peluang
-            
+ 
+ ![Screenshot (2649)](https://user-images.githubusercontent.com/106955551/195248038-260d2dd3-75d0-4951-8ad3-9a3161ac3deb.png)
             
    b. Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
 
@@ -189,18 +214,29 @@
                main = "Histogram Distribusi Eksponensial untuk 10 Bilangan Random",
                col  = "plum"
             )
+            
+![Screenshot (2650)](https://user-images.githubusercontent.com/106955551/195248053-73b42ff8-0479-4288-a498-071ad1e96d2c.png)
+
             hist(rexp(100, rate = lambda), 
                main = "Histogram Distribusi Eksponensial untuk 100 Bilangan Random",
                col  = "deeppink"
             )
+            
+![Screenshot (2651)](https://user-images.githubusercontent.com/106955551/195248057-df5a8a0c-794e-4547-abc1-3e1977432b02.png)
+
             hist(rexp(1000, rate = lambda), 
                main = "Histogram Distribusi Eksponensial untuk 1000 Bilangan Random",
                col  = "yellow"
             )
+            
+![Screenshot (2652)](https://user-images.githubusercontent.com/106955551/195248068-ceccf500-b031-4fa4-9b5d-aaef3d0a4a31.png)
+
             hist(rexp(10000, rate = lambda), 
                main = "Histogram Distribusi Eksponensial untuk 10000 Bilangan Random",
                col  = "aquamarine"
             )
+            
+![Screenshot (2653)](https://user-images.githubusercontent.com/106955551/195248076-bc55c63a-fab6-481c-abd2-2f6562d55f54.png)
             
             
     c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 dan λ = 3
@@ -215,7 +251,9 @@
             varian = (sd(rexp(n, rate = lambda))) ^ 2
             mean
             varian
-            
+
+![Screenshot (2654)](https://user-images.githubusercontent.com/106955551/195248086-d8fcb1d7-c350-4828-be16-0bde11a0a467.png)
+
             
 6. Diketahui generate random nilai sebanyak 100 data, mean = 50, sd = 8. Tentukan
 
