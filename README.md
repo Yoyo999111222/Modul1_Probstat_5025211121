@@ -282,6 +282,8 @@
 
             plot(Z_scores, type = "o", col = "blueviolet")
             
+![Screenshot (2656)](https://user-images.githubusercontent.com/106955551/195248970-c4c174a9-b32b-4b01-9b51-f5fd6fc709ad.png)
+
             
     b. Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan: 
            NRP_Nama_Probstat_{Nama Kelas}_DNhistogram
@@ -294,6 +296,8 @@
                main   = "5025211121_Frederick Yonatan Susanto_Probstat_A_DNhistogram",
                col    = "brown"
             )
+    
+ ![Screenshot (2658)](https://user-images.githubusercontent.com/106955551/195248712-2d3cb2b4-2162-45ca-8570-389fd00ed1df.png)
             
             
      c. Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
@@ -302,6 +306,7 @@
             varian = (sd(data)) ^ 2
             varian
 
+![Screenshot (2659)](https://user-images.githubusercontent.com/106955551/195248724-c5ea0830-6210-4466-a46b-3c0695383081.png)
 
 
 
