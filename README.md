@@ -5,8 +5,8 @@
    a. Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaksinasi  sebelum keberhasilan pertama ketika p = 0,20 dari populasi menghadiri 
       acara vaksinasi ? (distribusi Geometrik)
       
-      Penyelesaian dilakukan dengan menggunakan distribusi Geometrik dengan bantuan fungsi dgeom(). Dari fungsi tersebut, didapatkan hasil yaitu             
-      peluang sebesar 0.1024. Fungsi tersebut berisi x (sampel orang yang tidak menghadiri acara vaksinasi) dan 
+      Penyelesaian dilakukan dengan menggunakan distribusi Geometrik dengan bantuan fungsi dgeom(). 
+      Dari fungsi tersebut, didapatkan hasil yaitu peluang sebesar 0.1024. Fungsi tersebut berisi x (sampel orang yang tidak menghadiri acara vaksinasi) dan 
       p (peluang kehadiran orang menghadiri acara vaksinasi) sebagai parameternya.
       
           p = 0.2
