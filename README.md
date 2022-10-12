@@ -201,7 +201,7 @@
 
             #A
             set.seed(1)
-            peluang = dexp(1, rate = lambda)
+            peluang = rexp(1, rate = lambda)
             peluang
  
  ![Screenshot (2649)](https://user-images.githubusercontent.com/106955551/195248038-260d2dd3-75d0-4951-8ad3-9a3161ac3deb.png)
