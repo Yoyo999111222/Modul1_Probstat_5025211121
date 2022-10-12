@@ -11,6 +11,10 @@
           #A
           peluang = dgeom(x,1-p)
           peluang
+       
+       
+![Screenshot (2626)](https://user-images.githubusercontent.com/106955551/195243217-b2e12dab-e7f0-4d9c-a2e3-5eae28721442.png)
+
 
    b.  Mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
          
