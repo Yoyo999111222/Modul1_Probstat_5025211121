@@ -326,13 +326,13 @@
    Selanjutnya, dilakukan penentuan nilai x1 dan x2 yang nantinya digunakan dalam pembuatan plot grafik.
 
             #A
-            #data <- c(1,2,4,2,6,3,10,11,5,3,6,8)
-            data <- rnorm(n,mean,sd)
-            rata_rata <- mean(data)
-            x1 <- floor(mean(data))
-            x2 <- ceiling(mean(data))
+            #data = c(1,2,4,2,6,3,10,11,5,3,6,8)
+            data  = rnorm(n,mean,sd)
+            rata_rata = mean(data)
+            x1 = floor(mean(data))
+            x2 = ceiling(mean(data))
 
-            Z_scores <- (data - mean(data) / sd(data))
+            Z_scores = (data - mean(data) / sd(data))
 
             plot(Z_scores, type = "o", col = "blueviolet")
             
