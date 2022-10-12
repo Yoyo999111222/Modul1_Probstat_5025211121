@@ -205,7 +205,7 @@
       b. Histogram dari Distribusi Chi-Square dengan 100 data random.
       
       Untuk membuat histogram distribusi Chi-Square, digunakan fungsi hist() dengan angka acak dari 
-      fungsi distribusi Chi-Squaresebagai parameternya.
+      fungsi distribusi Chi-Square sebagai parameternya.
       
             #B
             n = 100
