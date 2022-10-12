@@ -344,7 +344,7 @@
             Contoh :
             312312312_Rola_Probstat_A_DNhistogram
             
-    Untuk membuat histogram distribusi Geometrik, digunakan fungsi hist() dengan parameter yaitu data dan nilai breaks.
+    Untuk membuat histogram distribusi Normal, digunakan fungsi hist() dengan parameter yaitu data dan nilai breaks.
             
             #B
             hist(data,
