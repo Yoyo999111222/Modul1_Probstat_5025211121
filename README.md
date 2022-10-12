@@ -219,7 +219,7 @@
             
       c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Chi-Square.
       
-      Untuk mendapatkan nilai mean menggunakan nilai dari v.Untuk mendapatkan nilai rataan menggunakan nilai dari v.
+      Untuk mendapatkan nilai mean menggunakan nilai dari v.
       Untuk mendapatkan nilai varian menggunakan nilai dari dua kali v.
        
             #C
