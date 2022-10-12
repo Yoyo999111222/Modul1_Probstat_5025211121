@@ -253,7 +253,7 @@
             
    b. Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
    
-   Untuk membuat histogram distribusi Geometrik, digunakan fungsi hist() dengan angka acak dari fungsi distribusi Eksponensial dan variasi pada jumlah data yang          digunakan (10, 100, 1000, dan 10000) sebagai parameternya.
+   Untuk membuat histogram distribusi Eksponensial, digunakan fungsi hist() dengan angka acak dari fungsi distribusi Eksponensial dan variasi pada jumlah data yang          digunakan (10, 100, 1000, dan 10000) sebagai parameternya.
 
             #B
             set.seed(1)
