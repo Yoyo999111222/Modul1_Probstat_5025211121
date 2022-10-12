@@ -1,4 +1,6 @@
 # Modul1_Probstat_5025211121
+Praktikum 1 Probabilitas dan Statistik 2022
+Oleh : Frederick Yonatan Susanto / 5025211121
 
 1. Seorang penyurvei secara acak memilih orang-orang di jalan sampai dia bertemu dengan seseorang yang menghadiri acara vaksinasi sebelumnya.
 
