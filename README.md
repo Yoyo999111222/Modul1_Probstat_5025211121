@@ -100,7 +100,7 @@
 
     b. Gambarkan grafik histogram berdasarkan kasus tersebut. 
     
-    Untuk membuat histogram distribusi Geometrik, digunakan fungsi hist() dengan angka acak dari 
+    Untuk membuat histogram distribusi Binomial, digunakan fungsi hist() dengan angka acak dari 
     fungsi distribusi Binomial sebagai parameternya.
      
           #B
