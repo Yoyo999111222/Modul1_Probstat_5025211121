@@ -13,7 +13,8 @@
           peluang
        
        
-![Screenshot (2626)](https://user-images.githubusercontent.com/106955551/195243217-b2e12dab-e7f0-4d9c-a2e3-5eae28721442.png)
+![Screenshot (2630)](https://user-images.githubusercontent.com/106955551/195245453-95fe4d04-5264-4fb3-951e-7146a5965f41.png)
+
 
 
    b.  Mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
@@ -21,6 +22,11 @@
           #B
           n = 10000
           mean(rgeom(n,p) == 3)
+          
+          
+![Screenshot (2631)](https://user-images.githubusercontent.com/106955551/195245538-741783ce-8c27-4ee2-a101-84bf1c8bfc72.png)
+
+
    
    c.  Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan?
    
@@ -32,6 +38,7 @@
        seiring dengan nilai random yang dihasilkan dari fungsi rgeom().
        Untuk kebutuhan sampling, poin B lebih baik untuk digunakan daripada poin A.
        
+       
    d.  Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
    
           #D
@@ -42,6 +49,10 @@
                xlab = "X",
                col  = "cyan"
           )
+          
+          
+![Screenshot (2632)](https://user-images.githubusercontent.com/106955551/195245595-fad75a8d-ec57-43cd-be2d-9aecf8b88d5b.png)
+
     
     e.  Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.
     
@@ -50,6 +61,9 @@
           mean
           varian = (1-p)/p^2
           varian
+               
+![Screenshot (2633)](https://user-images.githubusercontent.com/106955551/195245706-137fff6b-f5a5-46f6-90af-d1a105056d49.png)
+          
         
 2. Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
     
